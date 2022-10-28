@@ -50,7 +50,7 @@ def add_scholarship():
         scholarships = scholarships_json["scholarships"]
 
     authorization = request.headers.get("Authorization")
-    if authorization == "Basic NTY5MmVhOWItNzBkYy00M2YxLTllMzEtOGE0ZGI5M2ZiZWUy":
+    if authorization == API_AUTHENTICATION:
         title = request.form["title"]
         url = request.form["url"]
         eligibility = request.form["eligibility"]

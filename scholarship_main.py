@@ -29,7 +29,7 @@ def main():
     while True:
         new_scholarships, error = get_scholarship_responses()
         if error:
-            print("An error occured while fetching Typeform responses. Error: {}".format(error))
+            print("An error occurred while fetching Typeform responses. Error: {}".format(error))
 
         else:
             for scholarship in new_scholarships:

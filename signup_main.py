@@ -20,7 +20,7 @@ def main():
     while True:
         phone_numbers, error = get_signup_responses()
         if error:
-            print("An error occured while fetching Typeform responses. Error: {}".format(error))
+            print("An error occurred while fetching Typeform responses. Error: {}".format(error))
 
         else:
             for number in phone_numbers:
