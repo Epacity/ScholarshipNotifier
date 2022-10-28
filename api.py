@@ -15,7 +15,7 @@ scholarships_file = "scholarships.json"
 
 @app.route("/")
 def index():
-    return "ScholarshipNotifier API v{} by NullByte".format(API_VERSION)
+    return "ScholarshipNotifier API v{}".format(API_VERSION)
 
 
 @app.route("/api/enroll", methods=["POST"])
